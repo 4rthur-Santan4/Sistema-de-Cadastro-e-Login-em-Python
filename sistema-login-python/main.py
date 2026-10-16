@@ -110,13 +110,17 @@ def menu(usuarios):
         print('2 - Login com usuário') 
         print('9 - Sair')
         escolha = input('Opção Escolhida: ').strip()
+        
         if escolha == '1':
             cadastro(usuarios)
+            
         elif escolha == '2':
             login(usuarios)
+            
         elif escolha == '9':
             print('Escolheu sair!')
             break
+            
         else:
             print('Escolha somente entre as opções!')
 
